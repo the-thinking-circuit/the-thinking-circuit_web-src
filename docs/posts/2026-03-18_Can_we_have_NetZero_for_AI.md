@@ -10,6 +10,8 @@ authors:
   - khanh
 ---
 
+
+
 # Carbon-Neutral AI: Rethinking How Intelligence Uses Energy
 
 Artificial Intelligence is advancing at an incredible pace. From large-scale models to autonomous systems, modern AI continues to push the limits of computation. However, this progress raises an important question:
@@ -22,7 +24,6 @@ Most research today focuses on making AI **more computationally efficient** thro
 
 But what if AI systems could **adapt their computation to the energy available**?
 
----
 
 ## Intelligence That Adapts to Energy
 
@@ -36,7 +37,6 @@ Our work introduces **GreenMorph**, a framework designed for sustainable neuromo
 
 Instead of assuming a stable power supply, GreenMorph targets environments powered by **energy harvesting**, such as solar or ambient sources. In these scenarios, energy availability can fluctuate significantly over time, meaning the AI system must dynamically adapt its workload.
 
----
 
 ## Why Spiking Neural Networks?
 
@@ -46,7 +46,6 @@ Unlike conventional neural networks that process information continuously, SNNs 
 
 This event-driven behavior can significantly reduce power consumption. Neuromorphic hardware implementations have demonstrated **orders-of-magnitude improvements in energy efficiency** compared to conventional deep learning accelerators.
 
----
 
 ## Energy-Driven Learning and Computation
 
@@ -60,7 +59,6 @@ Together, these techniques allow the system to **trade computation for energy sa
 
 In our experiments, this approach can reduce **training energy consumption by up to 88%**, while maintaining competitive model accuracy. Inference energy can also be scaled depending on the available energy budget and desired operating mode.
 
----
 
 ## Toward Net-Zero AI
 
@@ -70,7 +68,6 @@ Future AI systems—especially those deployed in edge devices, drones, robots, a
 
 If AI systems can dynamically adjust their workload to energy availability, it becomes possible to approach **carbon-neutral or net-zero AI computation**.
 
----
 
 ## Looking Forward
 
@@ -86,3 +83,6 @@ As AI continues to expand across embedded systems and intelligent machines, sust
 The future of AI may not simply be **bigger models**.
 
 It may be **intelligence that understands its energy footprint—and adapts accordingly**.
+
+!!! note "Disclaimer"
+    This article is edited by ChatGPT.
