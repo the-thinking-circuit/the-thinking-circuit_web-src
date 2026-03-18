@@ -34,10 +34,10 @@ video {
 }
 
 /* make it full-width */
-
+/* 
 .md-grid {
-    max-width: 1400px;
-}
+    max-width: initial;
+} */
 
 /* remove top bar shadow */
 
