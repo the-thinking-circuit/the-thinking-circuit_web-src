@@ -1,1 +1,6 @@
+---
+hide:
+# - navigation
+- toc
+---
 # Tags
