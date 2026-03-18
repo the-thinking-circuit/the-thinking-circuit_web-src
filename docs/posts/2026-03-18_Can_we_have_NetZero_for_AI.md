@@ -18,7 +18,10 @@ Artificial Intelligence is advancing at an incredible pace. From large-scale mod
 
 **How sustainable is AI?**
 
-Training and running modern AI systems can consume enormous amounts of energy. Recent studies estimate that training large AI models can require **hundreds of MWh of electricity**, while data centers already account for roughly **1–2% of global electricity consumption**. As AI continues to scale, its carbon footprint will inevitably grow unless we rethink how these systems operate.
+Training and running modern AI systems can consume enormous amounts of energy. Recent studies estimate that training large AI models can require **hundreds of MWh of electricity**, while data centers already account for roughly **1–2% of global electricity consumption**. As AI continues to scale, its carbon footprint will inevitably grow unless we rethink how these systems operate. As shown below, we can see that AI energy consumption may soon exceed the consumption of a country with 100 million people.
+
+![AI power](imgs/2026-03-18_AI_power_demand.png)
+*Figure 1: AI power demand project vs energy consumption of Japan in 2024.*
 
 Most research today focuses on making AI **more computationally efficient** through pruning, quantization, or model compression. While effective, these approaches still assume that energy is always available.
 
@@ -73,7 +76,6 @@ If AI systems can dynamically adjust their workload to energy availability, it b
 ## Looking Forward
 
 This work will be presented at the  
-:contentReference[oaicite:0]{index=0}.
 
 > Hanyu Yuga, Subbaiah Ravi Hariprakash, Abderazek Ben Abdallah, Zhishang Wang, and Khanh N. Dang  
 > *GreenMorph: Sustainable Neuromorphic Computing through Energy-Harvesting and Energy-Driven Online STDP Learning*  
