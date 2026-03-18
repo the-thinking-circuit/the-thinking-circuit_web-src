@@ -24,6 +24,7 @@ Most research today focuses on making AI **more computationally efficient** thro
 
 But what if AI systems could **adapt their computation to the energy available**?
 
+<!-- more -->
 
 ## Intelligence That Adapts to Energy
 
