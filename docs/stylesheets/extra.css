@@ -36,7 +36,7 @@ video {
 /* make it full-width */
 
 .md-grid {
-    max-width: initial;
+    max-width: 1000px;
 }
 
 /* remove top bar shadow */
