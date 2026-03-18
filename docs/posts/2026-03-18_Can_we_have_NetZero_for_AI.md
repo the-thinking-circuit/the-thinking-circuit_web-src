@@ -40,8 +40,7 @@ Our work introduces **GreenMorph**, a framework designed for sustainable neuromo
 
 > **AI systems should scale their computation based on the energy available to them.**
 
-Instead of assuming a stable power supply, GreenMorph targets environments powered by **energy harvesting**, such as solar or ambient sources. In these scenarios, energy availability can fluctuate significantly over time, meaning the AI system must dynamically adapt its workload.
-
+Tnstead of assuming a stable power supply, GreenMorph targets environments powered by energy harvesting, such as solar or ambient sources. In these scenarios, energy availability can fluctuate significantly over time, meaning the AI system must dynamically adapt its workload. As we know, when humans are hungry (lack of energy), we can still think and react, but at a reduced cognitive level. Inspired by this behavior, we aim to adapt this principle from nature into our system design.
 
 ## Why Spiking Neural Networks?
 
