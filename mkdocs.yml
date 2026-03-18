@@ -130,7 +130,7 @@ plugins:
       # bib_file: "docs/refs.bib"
   - blog:
       blog_dir: .
-      authors_profiles: true
+      # authors_profiles: true
 
       # authors: false
       blog_toc: false
@@ -156,9 +156,9 @@ plugins:
         - Thought
       pagination_per_page: 5
       # archive_pagination_per_page: 10
-      categories_pagination_per_page: 10
-  - tags:
-      tags_file: moments/tags.md
+      # categories_pagination_per_page: 10
+  # - tags:
+      # tags_file: moments/tags.md
 
 
 extra:
