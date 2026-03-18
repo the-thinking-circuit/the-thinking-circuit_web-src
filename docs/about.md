@@ -16,5 +16,5 @@ hide:
 
     We are a small group of researchers working on the design of AI, covering both hardware and software.  More details can be found on the PI's [research page](https://u-aizu.ac.jp/~khanh/research/).  Please see [this page](https://u-aizu.ac.jp/~khanh/grp_mem/) for the list of members.
 
-    ==You can also check out [our blog here!](blog/index.md).==
+    ==You can also check out [our blog here!](index.md).==
 
