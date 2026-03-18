@@ -3,7 +3,11 @@ date: 2026-03-18
 categories:
   - Thought
 tags:
-  - Journey
+  - Thought
+  - Carbon Neutrality
+  - AI
+  - Spiking
+  - Neuromorphic
 hide:
   - toc
 authors:
@@ -68,7 +72,7 @@ In our experiments, this approach can reduce **training energy consumption by up
 
 The broader vision of this work is **carbon-aware AI computation**.
 
-Future AI systems—especially those deployed in edge devices, drones, robots, and autonomous platforms—may increasingly rely on renewable or harvested energy sources. In such environments, AI systems should not assume unlimited power. Instead, they should **adapt their computation to match the energy they receive**.
+Future AI systems, especially those deployed in edge devices, drones, robots, and autonomous platforms, may increasingly rely on renewable or harvested energy sources. In such environments, AI systems should not assume unlimited power. Instead, they should **adapt their computation to match the energy they receive**.
 
 If AI systems can dynamically adjust their workload to energy availability, it becomes possible to approach **carbon-neutral or net-zero AI computation**.
 
@@ -78,14 +82,14 @@ If AI systems can dynamically adjust their workload to energy availability, it b
 This work will be presented at the  
 
 > Hanyu Yuga, Subbaiah Ravi Hariprakash, Abderazek Ben Abdallah, Zhishang Wang, and Khanh N. Dang  
-> *GreenMorph: Sustainable Neuromorphic Computing through Energy-Harvesting and Energy-Driven Online STDP Learning*  
+> *GreenMorph: Sustainable Neuromorphic Computing through Energy Harvesting and Energy Driven Online STDP Learning*  
 > IEEE International Symposium on Circuits and Systems (ISCAS), 2026.
 
 As AI continues to expand across embedded systems and intelligent machines, sustainability will become a fundamental design requirement.
 
 The future of AI may not simply be **bigger models**.
 
-It may be **intelligence that understands its energy footprint—and adapts accordingly**.
+It may be **intelligence that understands its energy footprint and adapts accordingly**.
 
 !!! note "Disclaimer"
     This article is edited by ChatGPT.
