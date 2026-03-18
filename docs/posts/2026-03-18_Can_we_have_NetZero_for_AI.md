@@ -113,4 +113,4 @@ It may be **intelligence that understands its energy footprint and adapts accord
 
 [^1]:   Data centres will use twice as much energy by 2030 — driven by AI. URL: [https://www.nature.com/articles/d41586-025-01113-z](https://www.nature.com/articles/d41586-025-01113-z)
 [^2]: Hunger and Performance in the Classroom. URL: [https://www.econstor.eu/handle/10419/207452](https://www.econstor.eu/handle/10419/207452)
-[^3]: Hanyu Yuga, Subbaiah Ravi Hariprakash, Abderazek Ben Abdallah, Zhishang Wang, and Khanh N. Dang , "*GreenMorph: Sustainable Neuromorphic Computing through Energy Harvesting and Energy Driven Online STDP Learning*", IEEE International Symposium on Circuits and Systems (ISCAS), 2026.
+[^3]: Hanyu Yuga et. al., "*GreenMorph: Sustainable Neuromorphic Computing through Energy Harvesting and Energy Driven Online STDP Learning*", IEEE International Symposium on Circuits and Systems (ISCAS), 2026.
