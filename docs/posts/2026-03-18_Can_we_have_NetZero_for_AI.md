@@ -20,7 +20,6 @@ Artificial Intelligence is advancing at an incredible pace. From large-scale mod
 
 Training and running modern AI systems can consume enormous amounts of energy. Recent studies estimate that training large AI models can require **hundreds of MWh of electricity**, while data centers already account for roughly **1–2% of global electricity consumption**. As AI continues to scale, its carbon footprint will inevitably grow unless we rethink how these systems operate. As shown below, we can see that AI energy consumption may soon exceed the consumption of a country with 100 million people.
 
-![AI power](imgs/2026-03-18_AI_power_demand.png)
 ![AI power demand](imgs/2026-03-18_AI_power_demand.png#only-light){ width="100%" }
 ![AI power dman](imgs/2026-03-18_AI_power_demand-inv.png#only-dark){ width="100%" }
 *Figure 1: AI power demand project vs energy consumption of Japan in 2024.*
