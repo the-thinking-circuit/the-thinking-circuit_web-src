@@ -92,17 +92,11 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 nav: 
+  - "E3 Computing Group": https://E3Computing.github.io/
   - 'Blog':  
     - index.md
-
-  # - 'Blog':
-    # - blog/index.md
-  - 'Links':
-    - "Our Moments": http://klab-aizu.github.io/moments
-    - "Our Internal Site": http://klab-aizu.github.io/
-    - "Contact": https://u-aizu.ac.jp/~khanh/contact/
-    - "GitHub": https://github.com/orgs/the-thinking-circuit
-  - "About": about.md
+  - "Our Moments": https://klab-aizu.github.io/moments
+  - "About": https://E3Computing.github.io/intro
 plugins:
   - search
   - meta
