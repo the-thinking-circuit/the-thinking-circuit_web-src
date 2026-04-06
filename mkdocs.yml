@@ -92,7 +92,7 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 nav: 
-  - "E3 Computing Group": https://E3Computing.github.io/
+  - "E3Computing HP": https://E3Computing.github.io/
   - 'Blog':  
     - index.md
   - "Our Moments": https://klab-aizu.github.io/moments
