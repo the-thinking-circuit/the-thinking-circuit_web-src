@@ -95,8 +95,6 @@ nav:
   - "E3Computing HP": https://E3Computing.github.io/
   - 'Blog':  
     - index.md
-  - "Our Moments": https://klab-aizu.github.io/moments
-  - "About": https://E3Computing.github.io/intro
 plugins:
   - search
   - meta
