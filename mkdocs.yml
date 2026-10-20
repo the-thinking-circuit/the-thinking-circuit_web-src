@@ -39,14 +39,9 @@ markdown_extensions:
 theme: 
   name: material
 
-  # logo: assets/logo.svg
-  # favicon: assets/favicon.png
   favicon: assets/ttc.png
   custom_dir: overrides   
-  # logo_dark_mode: assets/logo_2025_dark.svg
-  logo_dark_mode: assets/ttc_dark.svg
-  # logo_light_mode: assets/logo_2025_light.svg
-  logo_light_mode: assets/ttc_light.svg 
+  logo: assets/logo.svg
   
   # font: false
   font:
@@ -92,9 +87,10 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 nav: 
-  - "E3Computing HP": https://E3Computing.github.io/
+  - "E3Computing HP": https://E3Computing.org/
   - 'Blog':  
     - index.md
+  - 'Contact us': https://www.e3computing.org/contact/
 plugins:
   - search
   - meta
