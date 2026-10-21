@@ -33,6 +33,9 @@ video {
     margin: 0 auto;
 }
 
+.md-header__source {
+    display: none;
+}
 /* make it full-width */
  
 .md-grid {
