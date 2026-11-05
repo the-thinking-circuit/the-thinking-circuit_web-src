@@ -95,4 +95,30 @@ python detect_spikes.py --model pretrained/spike_csnn.pt --clips test  # replay 
 
 If you do have an OpenMV H7 Plus and a GENX320, record your own session with `gesture_recorder.py`, retrain, and point the detector at the live camera. A few things I'd try next: add polarity back as a second input channel, only let a block spike once it sees at least *k* events, or train with 32 or 64 time steps and see what changes.
 
-Both projects are MIT licensed, so go wild.
+## Bonus: a bubble pop game
+
+The gesture demos take some work before anything happens: you record, you train, and then you detect. For a quicker feel of what the sensor sees, we also made [event_bubble_pop](https://github.com/EventSensorCourse/event_bubble_pop), a small game for the same GENX320 and H7 Plus. Bubbles float up over the live event view, and you pop them by waving your hand through them. If a bubble reaches the top, the game is over. Holding your hand still inside a bubble does nothing, because a still hand makes no events.
+
+![Playing Event Bubble Pop with the live GENX320](imgs/bubble-pop-gameplay.gif)
+
+*Playing with the live camera. The side panel shows the score, the incoming event rate, and how many events a bubble needs to pop.*
+
+There's no neural network in this one. The game cuts the stream into 50 ms windows of sensor time, removes isolated events (real edges are connected, sensor noise is scattered), and counts the events inside each bubble. A bubble pops once it collects 200 events in a window. If too many pixels fire at once, the game assumes the room light changed and pops nothing.
+
+Fast waving ran into a limit of the USB link. The H7 Plus talks to the computer at USB Full-Speed, and in OpenMV's default Processed format, which spends 12 bytes on each event, that tops out at about 69k events/s. A waving hand produces more. With 8 buffers on the board, the extra events queued up and the display fell up to about 700 ms behind the hand. The game now uses 2 buffers, so the board drops the extra events instead of queuing them, and it streams the raw EVT2.0 format at about 4 bytes per event. With a hand waving the whole time, that got about 174k events/s through with a median delay of 3 ms.
+
+To play, no training needed:
+
+```sh
+git clone https://github.com/EventSensorCourse/event_bubble_pop.git
+cd event_bubble_pop
+python3.12 -m venv .venv && source .venv/bin/activate
+python -m pip install -r requirements.txt
+
+python bubble_pop.py                          # live camera, press SPACE to start
+python bubble_pop.py --replay recording.csv   # no board: play a recorded CSV
+```
+
+The game also works as a template for your own event-camera project: keep `event_stream.py`, and swap the processing in `process_window()` for your own algorithm.
+
+All three projects are MIT licensed, so go wild.
